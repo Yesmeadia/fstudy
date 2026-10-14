@@ -1,0 +1,14 @@
+<?php
+
+use Illuminate\Foundation\Inspiring;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Schedule;
+
+Artisan::command('inspire', function () {
+    $this->comment(Inspiring::quote());
+})->purpose('Display an inspiring quote');
+
+Schedule::command('compliance:purge-expired')
+    ->daily()
+    ->at('02:00')
+    ->description('Enforce statutory data retention by pruning expired draft applications and archived audit logs.');

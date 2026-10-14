@@ -1,0 +1,53 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "YES INDIA FOUNDATION" [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]: Institutional Feasibility & Accreditation Portal
+      - heading "Empowering Quality Educational Infrastructure Across India" [level=1] [ref=e10]
+      - paragraph [ref=e11]: A comprehensive, multi-criteria assessment portal for establishing, expanding, and evaluating schools. Engineered with demographic formulas, financial viability modelling, and governing board approval workflows.
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: 13-Section
+          - text: Feasibility Audit
+        - generic [ref=e15]:
+          - generic [ref=e16]: 100%
+          - text: Statutory Audit
+        - generic [ref=e17]:
+          - generic [ref=e18]: A4 PDF
+          - text: Executive Reports
+    - generic [ref=e19]:
+      - generic [ref=e20]: © 2026 YES INDIA FOUNDATION. All Rights Reserved.
+      - generic [ref=e21]:
+        - link "Privacy Policy" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/privacy-policy
+        - generic [ref=e23]: •
+        - link "Terms & Conditions" [ref=e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/terms-and-conditions
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - heading "Authentication" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Sign in to access your feasibility studies and evaluations.
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Email Address
+        - textbox "Email Address" [active] [ref=e35]:
+          - /placeholder: user@yesindiafoundation.com
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: Password
+          - link "Forgot Password?" [ref=e39] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/forgot-password
+        - textbox "Password" [ref=e41]:
+          - /placeholder: ••••••••••••
+      - generic [ref=e43] [cursor=pointer]:
+        - checkbox "Keep me signed in for 30 days" [ref=e44]
+        - generic [ref=e45]: Keep me signed in for 30 days
+      - iframe [ref=e50]:
+        - generic [ref=f1e2]:
+          - generic [ref=f1e3]:
+            - checkbox "I'm not a robot" [ref=f1e7]
+            - generic [aria-hidden] [ref=f1e11]: I'm not a robot
+          - generic [ref=f1e12]: reCAPTCHA
+      - button "Sign In to Dashboard" [ref=e51] [cursor=pointer]
